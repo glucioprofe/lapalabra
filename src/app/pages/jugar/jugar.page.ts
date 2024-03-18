@@ -34,7 +34,7 @@ export class JugarPage implements OnInit {
     const rand = Math.ceil(Math.random()*this.palabras.length)
     this.palabra = this.palabras[rand]
     this.letras = this.palabra.split('')
-
+    console.log(this.letras)
     return 0
   }
 

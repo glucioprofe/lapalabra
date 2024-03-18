@@ -17,5 +17,17 @@ ion-input.custom {
   font-size: xx-large;
   text-transform: capitalize;
   font-weight: bold;
+}
 
+ion-input.verde {
+  --background: #0a640a;
+  --color: #ffffff;
+}
+ion-input.naranja {
+  --background: #c87303;
+  --color: #ffffff;
+}
+ion-input.gris {
+  --background: #767676;
+  --color: #ffffff;
 }
